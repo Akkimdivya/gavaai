@@ -1,0 +1,49 @@
+body{
+  background:white;
+  overflow:hidden;
+}
+
+.edit-btn{
+  margin-right:20px;
+}
+.custom-input input {
+  width:100%;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  background:none;
+}
+
+.custom-input input:focus {
+  width:100%;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  background:none;
+}
+
+.upload-btn{
+  margin-right:auto;
+}
+.hover\:bg-slate-200:hover {
+  background-color: #dee2e6;
+}
+
+.px-1 {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.py-1 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.rounded {
+  border-radius: 4px;
+}
+
+.active-link {
+  background-color: #dee2e8; /* Active link background color */
+  color: #000; /* Active link text color */
+}
